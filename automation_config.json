@@ -1,6 +1,6 @@
 {
 	"platform": "andriod",
-		"manifest": "AndroidManifest.xml",
+		"manifest": "AndroidUnitTester/AndroidManifest.xml",
 		"targets": [
 		{
 			"name": "before_it_was_cool",
