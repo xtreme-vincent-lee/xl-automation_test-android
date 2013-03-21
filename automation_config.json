@@ -1,0 +1,15 @@
+{
+	"platform": "andriod",
+		"manifest": "AndroidManifest.xml",
+		"targets": [
+		{
+			"name": "before_it_was_cool",
+			"tests": [
+			{
+				"type": "uitest",
+				"directory": "UnitTester"
+			}
+			]
+		}
+	]
+}
