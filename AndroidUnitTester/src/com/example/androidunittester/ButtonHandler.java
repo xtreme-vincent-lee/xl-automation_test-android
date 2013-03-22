@@ -29,6 +29,7 @@ public class ButtonHandler implements OnClickListener {
 		case R.id.button4:
 			parent.toast("Button 4");
 			break;
+			
 
 		}
 	}
