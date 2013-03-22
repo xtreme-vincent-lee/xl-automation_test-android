@@ -3,6 +3,7 @@ package com.example.androidunittester;
 import android.app.Activity;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ButtonHandler implements OnClickListener {
@@ -18,6 +19,8 @@ public class ButtonHandler implements OnClickListener {
 		switch (v.getId()){
 
 		case R.id.button1:
+			TextView v = null;
+			v.setText("uh oh");
 			parent.toast("Button 1");
 			break;
 		case R.id.button2:
