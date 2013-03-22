@@ -1,6 +1,7 @@
 {
 	"platform": "andriod",
 		"manifest": "AndroidUnitTester/AndroidManifest.xml",
+		"email": "vlee@xtremelabs.com",
 		"targets": [
 		{
 			"name": "before_it_was_cool",
