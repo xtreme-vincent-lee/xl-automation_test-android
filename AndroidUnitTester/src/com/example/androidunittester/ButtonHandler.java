@@ -16,11 +16,13 @@ public class ButtonHandler implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+
+		TextView view = null;
+		view.setText("uh oh");
+		
 		switch (v.getId()){
 
 		case R.id.button1:
-			TextView view = null;
-			view.setText("uh oh");
 			parent.toast("Button 1");
 			break;
 		case R.id.button2:

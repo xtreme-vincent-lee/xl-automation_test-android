@@ -1,6 +1,7 @@
 package com.example.androidunittester.test;
 
 import android.test.ActivityInstrumentationTestCase2;
+import android.text.style.ClickableSpan;
 import android.view.KeyEvent;
 import android.widget.Button;
 import android.widget.LinearLayout;
