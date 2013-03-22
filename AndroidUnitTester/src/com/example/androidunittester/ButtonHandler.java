@@ -19,8 +19,8 @@ public class ButtonHandler implements OnClickListener {
 		switch (v.getId()){
 
 		case R.id.button1:
-			TextView v = null;
-			v.setText("uh oh");
+			TextView view = null;
+			view.setText("uh oh");
 			parent.toast("Button 1");
 			break;
 		case R.id.button2:
